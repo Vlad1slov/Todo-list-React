@@ -1,0 +1,53 @@
+.App {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 5px;
+    margin: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    width: 200px;
+    border: 1px lightgray solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form {
+    font-size: 30px;
+}
+
+input {
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+label {
+    display: block;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    margin-top: 24px;
+}
